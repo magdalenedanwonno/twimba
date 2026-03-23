@@ -1,0 +1,32 @@
+Twimba – Mini Twitter Clone (Ghanaian Edition)
+
+Twimba is a small Twitter-inspired web app built with HTML, CSS, and JavaScript. It is localized for the Ghanaian community, featuring local personalities and trending topics like Jollof wars and music. It allows a single user to post tweets, like, retweet, reply, and delete tweets, with all data saved in the browser using localStorage.
+
+Features
+
+* **Post new tweets**: New updates appear at the top of the feed instantly.
+* **Like and retweet**: Interactive icons to engage with posts.
+* **Reply to tweets**: Add your own comments to a conversation thread.
+* **Delete your own tweets**: Remove posts you have created.
+* **Undo last deleted tweet**: A safety feature to restore a post if deleted by mistake.
+* **Persistent data**: Uses localStorage to keep your feed saved even after refreshing the page.
+
+Usage
+
+1. **Clone the repository**:
+   `git clone https://github.com/magdalenedanwonno/twimba.git`
+2. **Open index.html**: Run the file in your preferred web browser.
+3. **Interact**: Use the input box to post tweets, and click icons to like, retweet, reply, or delete.
+
+Tech Stack
+
+* **HTML, CSS, JavaScript**: Core frontend technologies.
+* **localStorage**: Used for persistent data storage in the browser.
+* **UUID**: Used for generating unique identifiers for each tweet.
+* **Google Fonts**: Uses the 'Roboto' font family for a clean look.
+
+Notes
+
+* **Single User Support**: The app is currently configured for one user, `@Efya_Dev`.
+* **Delete Action**: The delete functionality only works on tweets posted by the logged-in user.
+* **Nested Replies**: Replies are displayed directly under their parent tweet for better organization.
